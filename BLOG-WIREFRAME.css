@@ -1,0 +1,57 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin: 0 60px;
+}
+nav  {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #18A0FB;
+}
+
+.title {
+    margin: 0;
+    font-family:"Cinzel Decorative", serif;
+    font-weight: 700;
+    color: #18A0FB;
+    font-size:36px;
+    text-align: left;
+}
+
+.menu {
+    display: flex;  
+    justify-content: space-between;  
+    width: 30%;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+.search {
+    display: flex;
+}
+
+.search .button {
+    background-color: #18A0FB;
+    color: white;
+    border-style: none;
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    
+}
+
+.search input {
+    border: #18A0FB 1px solid;
+    border-radius: 0 5px 5px 0;
+}
+
+hr {
+    border: solid 0.5px #6DE4EA;
+}
