@@ -52,7 +52,7 @@ a {
     border-radius: 0 5px 5px 0;
 }
 
-hr {
+header hr {
     border: solid 0.5px #6DE4EA;
 }
 
@@ -84,7 +84,6 @@ hr {
     font-weight: 400;
 }
     
-
 .featured-post_post-title{
     align-items: center;
     display: flex;
@@ -110,6 +109,32 @@ hr {
     font-weight: 400;
 }
 
+.separation-section {
 
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 3px #6DE4EA solid;
+    border-radius: 6px;
+}
 
+.category {
+    margin: 0 140px;
+}
 
+.category_article-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_small{
+    border:grey 1px solid;
+    border-radius: 10px;
+    width: 686px;   
+}
+
+.article-small_image {
+    height: 206px;
+    width: 563px;
+}
