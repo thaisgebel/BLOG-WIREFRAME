@@ -56,17 +56,17 @@ hr {
     border: solid 0.5px #6DE4EA;
 }
 
-.section {
+.featured-post {
     margin: 0 140px;
 }
 
-.section h1 {
+.featured-post h1 {
     margin: 60px 0px 50px -20px ;
     font-weight: 400;
     font-size: 48px;
 }
 
-.article-box {
+.featured-post_article-box {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -74,13 +74,42 @@ hr {
 .article {
  border:grey 1px solid;
  border-radius: 10px;
- height: 655px; 
  width: 686px;   
 }
-  
-.box {
+.featured-post_article-content{
+    padding: 30px 50px;
+}
+.featured-post_article-content p {
+    font-size: 12px;
+    font-weight: 400;
+}
+    
+
+.featured-post_post-title{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+}       
+.featured-post_post-title h4 {
+    font-size: 18px;
+    font-weight: 700;
 }
+.featured-post_post-title a {
+    font-size: 400;
+    font-weight: 12px;
+}
+.featured-post_author .span-time {
+   padding: 0 0 0 20px;
+   color:gray;
+   font-size: 12px;
+   font-weight: 400;
+}
+.featured-post_author .span-author {
+    color:#6DE4EA;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
